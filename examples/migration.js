@@ -1,5 +1,5 @@
 var async = require('async');
-var sf = require('../lib/salesforce');
+var sf = require('../');
 
 var config = {};// { logLevel: "DEBUG" };
 var conn1 = new sf.Connection(config);
